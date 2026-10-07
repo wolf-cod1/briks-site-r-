@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Briks — un langage de programmation simple, lisible et puissant, avec Briks Studio Web.">
+<title>Briks — Code simple. Possibilités infinies.</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top"><span class="brand-mark">B</span><span>Briks</span></a>
+  <nav>
+    <a href="#language">Le langage</a>
+    <a href="docs.html">Documentation</a>
+    <a href="playground.html">Playground</a>
+    <a href="#studio">Studio</a>
+  </nav>
+  <a class="nav-cta" href="downloads/Briks_Studio_3.1_Web.zip" download>Télécharger Studio</a>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="dot"></span> Briks Studio 3.1 · Web</div>
+    <h1>Programmer sans<br><span>se compliquer la vie.</span></h1>
+    <p class="lead">Briks est un langage pensé pour être immédiatement lisible, tout en restant assez puissant pour construire de vrais projets.</p>
+    <div class="actions">
+      <a class="button primary" href="downloads/Briks_Studio_3.1_Web.zip" download>Télécharger Briks Studio <span>↓</span></a>
+      <a class="button ghost" href="#language">Découvrir Briks <span>→</span></a>
+    </div>
+    <div class="meta"><span>✓ Gratuit</span><span>✓ Open & local</span><span>✓ Fonctionne dans Chrome</span></div>
+  </div>
+  <div class="hero-editor">
+    <div class="window-bar"><span class="traffic"><i></i><i></i><i></i></span><span>main.briks</span><span class="window-spacer"></span><span>● Briks</span></div>
+    <div class="editor-body">
+      <div class="lines">01<br>02<br>03<br>04<br>05<br>06<br>07</div>
+      <pre><code><span class="kw">fn</span> greet(name) {
+    <span class="kw">display</span> <span class="str">"Hello "</span> + name
+}
+
+<span class="kw">ask</span> <span class="str">"Ton prénom ?"</span> <span class="kw">as</span> name
+greet(name)</code></pre>
+    </div>
+    <div class="editor-console"><span>$</span> briks main.briks<br><b>Ton prénom ?</b> <span class="cursor">_</span></div>
+  </div>
+</section>
+
+<section class="ticker"><span>BRIKS</span><span>READABLE</span><span>FAST</span><span>LOCAL</span><span>CREATIVE</span><span>BRIKS</span><span>READABLE</span></section>
+
+<section class="section" id="language">
+  <div class="section-heading"><div class="eyebrow">01 · LE LANGAGE</div><h2>Simple à lire.<br>Puissant à utiliser.</h2><p>Briks utilise des mots courts et naturels. Pas besoin de mémoriser une montagne de syntaxe avant de commencer.</p></div>
+  <div class="feature-grid">
+    <article><div class="number">01</div><h3>Une syntaxe naturelle</h3><p><code>allow</code>, <code>display</code>, <code>if</code>, <code>while</code>, <code>fn</code>… Le code se lit presque comme une phrase.</p></article>
+    <article><div class="number">02</div><h3>Tout ce qu'il faut</h3><p>Variables, conditions, boucles, fonctions, listes, objets, texte, entrées utilisateur, modules et gestion des erreurs.</p></article>
+    <article><div class="number">03</div><h3>Un langage qui grandit</h3><p>Briks est construit comme un vrai projet : moteur, documentation, exemples, Studio et versions successives.</p></article>
+  </div>
+</section>
+
+<section class="showcase" id="studio">
+  <div class="studio-screen">
+    <div class="studio-top"><span class="logo-mini">B</span><span>Briks Studio</span><span class="tab active">main.briks</span><span class="tab">greetings.briks</span><span class="spacer"></span><span class="run">▶ Run</span></div>
+    <div class="studio-main"><aside><div class="side-title">EXPLORER</div><div class="folder">▾ MonProjet</div><div class="file active">◈ main.briks</div><div class="file">◈ greetings.briks</div><div class="file">◈ utils.briks</div></aside><div class="code"><div class="code-line"><i>1</i><span><em>allow</em> score = <b>42</b></span></div><div class="code-line"><i>2</i><span><em>if</em> score &gt; 40 {</span></div><div class="code-line"><i>3</i><span>&nbsp;&nbsp;&nbsp;&nbsp;<em>display</em> <strong>"Bravo !"</strong></span></div><div class="code-line"><i>4</i><span>} <em>so</em> {</span></div><div class="code-line"><i>5</i><span>&nbsp;&nbsp;&nbsp;&nbsp;<em>display</em> <strong>"Continue !"</strong></span></div><div class="code-line"><i>6</i><span>}</span></div></div></div>
+    <div class="studio-bottom"><span class="active-bottom">TERMINAL</span><span>PROBLÈMES</span><div class="terminal-output">$ briks main.briks<br><span>Bravo !</span></div></div>
+  </div>
+  <div class="showcase-copy"><div class="eyebrow">02 · BRIKS STUDIO</div><h2>Ton atelier<br>de programmation.</h2><p>Une interface pensée comme un véritable IDE : fichiers, onglets, éditeur, terminal et exécution locale.</p><ul><li>Éditeur avec coloration syntaxique</li><li>Terminal intégré</li><li>Projets et fichiers <code>.briks</code></li><li>Fonctionnement hors ligne</li></ul><a class="text-link" href="downloads/Briks_Studio_3.1_Web.zip" download>Obtenir Studio 3.1 →</a></div>
+</section>
+
+<section class="code-section" id="examples">
+  <div><div class="eyebrow">03 · UN PETIT APERÇU</div><h2>Ça commence<br>comme ça.</h2><p>Quelques lignes suffisent pour créer un programme interactif.</p></div>
+  <pre class="big-code"><span class="comment">[ Un mini programme Briks ]</span>
+
+<span class="kw">ask</span> <span class="str">"Comment tu t'appelles ?"</span> <span class="kw">as</span> name
+<span class="kw">allow</span> message = <span class="str">"Bienvenue "</span> + name
+<span class="kw">display</span> message
+
+<span class="kw">if</span> size name &gt; <span class="num">5</span> {
+    <span class="kw">display</span> <span class="str">"Joli prénom !"</span>
+}</pre>
+</section>
+
+<section class="section mini-docs"><div class="section-heading"><div class="eyebrow">04 · POUR APPRENDRE</div><h2>Documentation + Playground.</h2><p>Lis la syntaxe, copie des exemples et teste immédiatement ton code dans le navigateur.</p></div><div class="feature-grid"><article><div class="number">DOCS</div><h3>Référence complète</h3><p>Variables, conditions, boucles, fonctions, listes, objets, texte, entrées, erreurs et modules.</p><a class="text-link" href="docs.html">Ouvrir la documentation →</a></article><article><div class="number">PLAY</div><h3>Code en direct</h3><p>Le moteur Briks Web est chargé directement dans le playground : écris et exécute sans installer Python.</p><a class="text-link" href="playground.html">Ouvrir le playground →</a></article><article><div class="number">NEXT</div><h3>Construire un projet</h3><p>Quand ton idée devient sérieuse, passe à Briks Studio pour gérer plusieurs fichiers et ton projet.</p><a class="text-link" href="#studio">Voir Studio →</a></article></div></section>
+
+<section class="download">
+  <div class="download-card"><div><div class="eyebrow">BRIKS STUDIO 3.1</div><h2>Prêt à coder ?</h2><p>Télécharge Studio et découvre Briks directement sur ton ordinateur.</p></div><a class="button primary" href="downloads/Briks_Studio_3.1_Web.zip" download>Télécharger gratuitement ↓</a></div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-brand"><span class="brand-mark">B</span><strong>Briks</strong><span>— un langage imaginé pour apprendre, créer et aller plus loin.</span></div>
+  <div class="credits"><strong>Crédits</strong><br>Briks est créé et développé avec <strong>ChatGPT (OpenAI)</strong> comme partenaire de conception et de développement.<br><span>Sans cette collaboration, Briks Studio n'existerait pas sous cette forme.</span></div>
+  <div class="footer-bottom"><span>© 2026 Briks Project</span><span>Briks Studio 3.1 Web</span></div>
+</footer>
+</body>
+</html>
